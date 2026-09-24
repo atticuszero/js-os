@@ -1,0 +1,10 @@
+{
+  "name": "@neotales/win-dpapi",
+  "version": "0.0.0",
+  "description": "Windows Data Protection API (DPAPI) secret protection using runtime-specific FFI backends.",
+  "license": "MIT",
+  "exports": {
+    ".": "./mod.ts",
+    "./ffi": "./ffi.ts"
+  }
+}

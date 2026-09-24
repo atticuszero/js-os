@@ -12,6 +12,7 @@ as two packages: a Deno-only JSR package in `jsr/` and a cross-runtime npm packa
 | `is-elevated`     | [JSR][jsr-is-elevated]     | [npm][npm-is-elevated]     | All       | Detect whether the current process is running with elevated privileges.      |
 | `win-registry`    | [JSR][jsr-win-registry]    | [npm][npm-win-registry]    | Windows   | Read and write the Windows Registry via FFI.                                 |
 | `win-cred`        | [JSR][jsr-win-cred]        | [npm][npm-win-cred]        | Windows   | Windows Credential Manager read/write/list helpers.                          |
+| `win-dpapi`       | [JSR][jsr-win-dpapi]       |                            | Windows   | Windows Data Protection API secret protection.                               |
 | `darwin-keychain` | [JSR][jsr-darwin-keychain] | [npm][npm-darwin-keychain] | macOS     | macOS Keychain secret storage helpers.                                       |
 | `linux-libsecret` | [JSR][jsr-linux-libsecret] | [npm][npm-linux-libsecret] | Linux     | Secret storage backed by `libsecret` (GNOME Keyring/KWallet Secret Service). |
 
@@ -93,6 +94,7 @@ as recommended by jsr.io, so no JSR token is required.
 [npm-win-registry]: ./npm/win-registry/README.md
 [jsr-win-cred]: ./jsr/win-cred/README.md
 [npm-win-cred]: ./npm/win-cred/README.md
+[jsr-win-dpapi]: ./jsr/win-dpapi/README.md
 [jsr-darwin-keychain]: ./jsr/darwin-keychain/README.md
 [npm-darwin-keychain]: ./npm/darwin-keychain/README.md
 [jsr-linux-libsecret]: ./jsr/linux-libsecret/README.md
